@@ -1,0 +1,19 @@
+﻿  console.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+C:\Users\zzWee\source\repos\Neutron\Neutron\src\Neutron\NetMessage.h(42,1): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\zzWee\source\repos\Neutron\console\console.cpp(56): message : see reference to function template instantiation 'Neutron::Message<T> &Neutron::operator <<<std::chrono::system_clock::time_point>(Neutron::Message<T> &,const dataType &)' being compiled
+          with
+          [
+              T=CustomMsgTypes,
+              dataType=std::chrono::system_clock::time_point
+          ]
+C:\Users\zzWee\source\repos\Neutron\console\console.cpp(56): message : see reference to function template instantiation 'Neutron::Message<T> &Neutron::operator <<<std::chrono::system_clock::time_point>(Neutron::Message<T> &,const dataType &)' being compiled
+          with
+          [
+              T=CustomMsgTypes,
+              dataType=std::chrono::system_clock::time_point
+          ]
+  console.vcxproj -> C:\Users\zzWee\source\repos\Neutron\x64\ServerDebug\console_Client.exe
